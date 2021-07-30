@@ -1,0 +1,27 @@
+.postContainer{
+    width:100%;
+    padding:1rem;
+    border-radius:10px;
+    background:white;
+    margin-bottom:1rem;
+}
+
+.postContainer__text{
+    color:gray;
+    margin-bottom:.5rem;
+}
+
+.postContainer__userInteraction{
+    display:flex;
+    flex-direction:column;
+    width:100%;
+}
+
+.postContainer__buttons{
+    display:flex;
+    justify-content: space-between;
+    padding:.3rem .5rem;
+    border-bottom: 1px solid rgba(220,220,220,0.5);
+    border-top: 1px solid rgba(220,220,220,0.5);
+}
+

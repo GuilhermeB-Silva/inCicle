@@ -1,0 +1,33 @@
+.postContainer__userInfo{
+    display:flex;
+    align-items:center;
+    margin-bottom:.5rem;
+}
+
+.postContainer__userImage{
+    width:70px;
+    height:70px;
+    border-radius:50%;
+    object-fit: cover;
+    border:2px solid white;
+    outline:2px solid darkblue;
+    margin-right:1rem;
+}
+
+.postContainer div{
+    flex:1
+}
+
+.postContainer__userInfo > div h4{
+    color:#008080
+}
+
+.postContainer__userInfo > div span{
+    font-size:.7rem;
+    color:#696969;
+    margin-right:5px
+}
+
+.postContainer__userInfo i{
+    color:#696969
+}

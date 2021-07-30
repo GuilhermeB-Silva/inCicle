@@ -1,0 +1,7 @@
+.App{
+    display:flex;
+    gap:1.5rem;
+    padding-top:1rem;
+    background:#F5F5F5;
+    height:100vh;
+}

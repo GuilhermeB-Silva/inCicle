@@ -1,0 +1,30 @@
+.containerBirthday{
+    background:white;
+    padding:.5rem 0 1rem;
+    height:max-content;
+    border-radius:10px;
+    color:gray;
+    margin-bottom:1rem;
+}
+
+.containerBirthday__cake{
+    border-bottom:4px solid lightgray;
+    text-align:center;
+    padding:.5rem 0;
+
+
+}
+.containerBirthday__cake i{
+    margin-right:5px;
+}
+
+.containerBirthday__cake span{
+    color:#008080;
+}
+.containerBirthday p{
+    width:80%;
+    text-align:center;
+    margin:0 auto;
+    font-size:.8rem;
+
+}

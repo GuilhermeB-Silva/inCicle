@@ -1,0 +1,16 @@
+.likesContainer{
+    width:100%;
+    display:flex;
+    justify-content: space-between;
+    margin-bottom:.3rem;
+    font-size:.8rem;
+    color:gray;
+}
+
+.likesContainer div{
+    flex:none;
+}
+
+.likesContainer div span:first-child{
+    margin-right:10px
+}

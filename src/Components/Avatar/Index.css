@@ -1,0 +1,70 @@
+.avatarContainer{
+    width:16rem;
+    height:max-content;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    background:white;
+    padding:.5rem;
+    background:url("../../Assets/Image/bg.jpg") 0px -2200px no-repeat;
+    border-radius:10px;
+    padding-top:8rem;
+}
+
+.avatarImage{
+    width:150px;
+    height:150px;
+    object-fit: cover;
+    border-radius:50%;
+    border:2px solid white;
+    outline:4px solid darkblue;
+}
+
+.avatarContainer__avatarDetails{
+    display:flex;
+    flex-direction:column;
+    text-align:center;
+    margin-bottom:1rem
+}
+
+.avatarContainer__avatarDetails > h2{
+    color:#008080
+}
+
+.avatarContainer__avatarDetails span:last-child{
+    font-weight:lighter
+}
+
+.avatarContainer__place{
+    width:100%;
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+}
+
+.avatarContainer__place{
+    color:gray;
+}
+
+.avatarContainer__place > span{
+   grid-column-start: 1;
+   grid-column-end: 3;
+   grid-row-start: 1;
+   grid-row-end: 1;
+    color:gray;
+}
+
+.avatarContainer__place span:nth-child(2){
+    grid-row-start: 2;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.avatarContainer__place span:last-child{
+    grid-row-start: 2;
+    grid-row-end: 2;
+    grid-column-start: 2;
+    grid-column-end: 3;
+
+}
